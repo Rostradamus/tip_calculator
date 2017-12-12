@@ -79,6 +79,8 @@
 		BE76FDF61FCE048F00B0E597 /* Tip Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				BE76FE1F1FCE071F00B0E597 /* Models */,
+				BE76FE201FCE071F00B0E597 /* Views */,
 				BE76FE1E1FCE052900B0E597 /* SupportFiles */,
 				BE76FE191FCE04D700B0E597 /* Controllers */,
 			);
@@ -113,6 +115,20 @@
 				BE76FE051FCE048F00B0E597 /* Info.plist */,
 			);
 			name = SupportFiles;
+			sourceTree = "<group>";
+		};
+		BE76FE1F1FCE071F00B0E597 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BE76FE201FCE071F00B0E597 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -434,6 +450,7 @@
 				BE76FE151FCE048F00B0E597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE76FE161FCE048F00B0E597 /* Build configuration list for PBXNativeTarget "Tip CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +459,7 @@
 				BE76FE181FCE048F00B0E597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
